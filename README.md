@@ -7,12 +7,12 @@ O projeto é composto de três partes: 1 - Estrutura, 2 - Arduino, 3 - Câmera e
 ## 🧱 Estrutura
 O Projeto tem como estrutura uma caixa feita em MDF em formato análogo as câmeras fotográficas antigas e uma tela e botão, conectados ao arduino.
 
-##  Arduino
+## 🤖 Arduino
 responsável pelo código do projeto, através dele foi criado um sistema que utiliza um display LCD, um botão e um servo motor.
 Quando o botão é pressionado, inicia uma contagem regressiva de 10 segundos, e após o tempo, o sistema simula o processo de tirar uma foto, movendo o servo e piscando um LED.
 O display LCD exibe mensagens em todas as etapas do processo
 
-## Câmera e impressora
+## 📷Câmera e 🖨️impressora
 responsável por registrar a foto para o usuário e imprimi-la.
 
 How to Use do Projeto Viva o Antigo:  
@@ -30,4 +30,3 @@ Explicação do código:
 1º - include <LiquidCrystal_I2C.h> : Esta biblioteca permite controlar um display LCD com interface I2C, simplificando o uso de displays LCD com dois fios (SDA e SCL).  
 2º - include <Servo.h> : Biblioteca que possui as funções necessárias para posicionar o servo para a posição desejada.
 3º - #include <Wire.h> : Biblioteca que permite comunicação com dispositivos I2C/TWI.
-1º - Include <LiquidCrystal_I2C.h>: 1º - Include <LiquidCrystal_I2C.h>: v
