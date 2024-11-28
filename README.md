@@ -12,8 +12,14 @@ O display LCD exibe mensagens em todas as etapas do processo
 
 3 - Câmera e impressora: responsável por registrar a foto para o usuário e imprimi-la.
 
-How to Use do Projeto Viva o Antigo:
-1 - Pressione o botão.localizado no lado da caixa.
-2 - o LCD irá notificar o tempo restante para a foto, com esse tempo,se organize para o registro da foto.
-3 - após a contagem do cronômetro terminar, o LCD irá notificar que a foto está sendo registrada com a mensagem "Tirando foto...", além disso, o LED vai disparar simulando o "disparo da foto".
+How to Use do Projeto Viva o Antigo:  
+1 - Pressione o botão.localizado no lado da caixa.  
+2 - o LCD irá notificar o tempo restante para a foto, com esse tempo,se organize para o registro da foto.  
+3 - após a contagem do cronômetro terminar, o LCD irá notificar que a foto está sendo registrada com a mensagem "Tirando foto...", além disso, o LED vai disparar simulando o "disparo da foto".  
 4 - O LCD exibe a mensagem "Obrigado =)" e retorna para o estado inicial no intuito de realizar-lo outra vez.
+
+Explicação do código:  
+#include <LiquidCrystal_I2C.h>  
+#include <Servo.h>  
+#include <Wire.h>
+1 - Nessa 1º parte são incluídas bibliotecas no código. A seguir serão explicadas cada uma dessas funções individualmente:
